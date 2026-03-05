@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Answer Upload</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Upload Answer Sheet</h2>
+
+<form action="upload" method="post" enctype="multipart/form-data">
+
+<label>Student ID</label>
+<input type="number" name="studentId" required>
+
+<br><br>
+
+<label>Question ID</label>
+<input type="number" name="questionId" required>
+
+<br><br>
+
+<label>Subject name</label>
+<input type="text" name="subName" required>
+
+<br><br>
+
+<label>Select Answer PDF</label>
+<input type="file" name="file" required>
+
+<br><br>
+
+<button type="submit">Submit</button>
+<button type="reset">Cancel</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
